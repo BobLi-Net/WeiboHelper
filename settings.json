@@ -1,0 +1,17 @@
+{
+  //从新浪微博开放平台获取
+  "ClientId": "",
+
+  "AppSecret": "",
+  //回调地址，需要与开放平台配置一样
+  "Redirect_url": "http://www.qingrui.vip/",
+  //来源网站
+  "SourceUrl": "http://www.qingrui.vip/",
+  //本级公网Ip
+  "DefaultUrl": "60.214.245.191",
+  //内容来源从网址(http)获取或从绝对磁盘路径
+  //"ContentFrom": "http://localhost:14006/forecast.txt"
+  "ContentFrom": "C:\\forecast.txt",
+  //轮训间隔时间，单位秒
+  "TimeSpan": 30
+}
